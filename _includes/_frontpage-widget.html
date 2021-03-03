@@ -1,0 +1,53 @@
+{% comment %}
+*
+*   First the include captures the url and image in a
+*   separate variable to make the code better readable.
+*
+*   These variables are widget_url and widget_image
+*
+{% endcomment %}
+
+{% capture widget_url %}{% if include.widget.url == NULL %}{% elsif include.widget.url contains 'http' %}{{ include.widget.url }}{% else %}{{ include.widget.url }}{% endif %}{% endcapture %}
+
+{% capture widget_image %}{% if include.widget.image contains 'http' %}{{ include.widget.image }}{% else %}{{ site.urlimg }}{{ include.widget.image }}{% endif %}{% endcapture %}
+
+
+<div class="medium-{{ include.widget.cols | default: 4 }} columns frontpage-widget">
+	{% if include.widget.video %}
+		{{ include.widget.video }}
+	{% elsif widget_url == empty %}
+		{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+	{% else %}
+		<a href="{{ widget_url }}">
+			{% if widget_image != empty %}<img src="{{ widget_image }}" alt="" />{% endif %}
+		</a>
+	{% endif %}
+
+	{% if include.widget.title != empty %}
+	<h2 class="font-size-h3 t10 b15">{{ include.widget.title }}</h2>
+	{% endif %}
+
+	{% if include.widget.location != empty %}
+	<p class="subheadline">{{ include.widget.location }}</p>
+	{% endif %}
+
+	{% if include.widget.dates != empty %}
+	<p class="subheadline">{{ include.widget.dates }}</p>
+	{% endif %}
+
+	{% if include.widget.text != empty %}
+	<p>{{ include.widget.text }}</p>
+	{% endif %}
+
+	{% comment %}
+	{% else %}
+    <p>{{ post.teaser | strip_html | escape }}</p>
+    {% endif %}
+    {% endcomment %}
+
+	{% if include.widget.button %}
+	<div class="text-center">
+		<a class="button tiny radius" href="{{ widget_url }}">{{ site.data.language.more }}</a>
+	</div>
+	{% endif %}
+</div>

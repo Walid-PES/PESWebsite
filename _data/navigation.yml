@@ -1,0 +1,36 @@
+#
+#   Navigation to the left › side: left
+#
+- title: "Logo"
+  url: "/"
+  logo: true
+  side: left
+
+- title: "About"
+  url: "/about/"
+  side: left
+
+- title: "Plastic 2 Build"
+  url: "/p2b/"
+  side: left
+
+- title: "Faecal Sludge"
+  url: "/fs/"
+  side: left
+
+- title: "Medical waste"
+  url: "/ms/"
+  side: left
+
+- title: "Our team"
+  url: "/team/"
+  side: left
+
+# - title: "Projects"
+#   url: "/projects/"
+#   side: left
+#   dropdown:
+#   - title: "Stop Plastic Pollution"
+#     url: "/projects/stop-plastic-pollution/"
+#   - title: "London PyTorch Meetup"
+#     url: "/projects/london-pytorch-meetup/"

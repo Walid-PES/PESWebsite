@@ -1,0 +1,82 @@
+# Start development with installing all dependencies
+# bundle install
+
+# Then run the website locally (go to localhost:4000 in your browser)
+# bundle exec jekyll serve --config _config.yml,_config_dev.yml
+
+# If port busy, check whuch process (PID) is using it and kill it
+# sudo lsof -i tcp:4000
+# kill -9 PID
+
+# ALL IMAGES MUST BE WITH 3-to-2 ASPECT RATIO, ALL TEAM IMAGES WITH 3-to-4
+
+port: 4000
+url: 'http://localhost:4000'
+urlimg: 'http://localhost:4000/images/'
+
+# # See › https://github.com/jekyll/jekyll-gist#disabling-noscript-support
+# gist:
+#   noscript: false
+
+# Ensure we only use gems available to GitHub pages
+safe: true
+
+sass:
+  # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: :expanded
+  line_numbers: true
+  # trace_selectors: true
+  # debug_info: true
+  # FUTURE https://github.com/jekyll/jekyll-sass-converter/issues/12
+  # sourcemap: true # Produces an error
+
+# # Disable when not in production
+google_analytics_tracking_id: false
+
+
+
+# # Description
+
+# Beautiful layouts can be constructed using https://get.foundation/sites/docs-v5/components/grid.html
+
+# The colors can be changed here: sass/_01_settings_colors.scss
+
+# "Includes" can be used in two ways:
+# - as templates: all includes with `_` are used for templates, like for example the `_head.html` or `_footer.html`
+# - as commands: for example {% include alert success="Yay! you did it!" %} or {% include gallery %}
+
+# To serve a pdf:
+# Download PDF [here][pdf_file]{:target="_blank"}.
+# [pdf_file]: /pdfs/dummy.pdf
+
+# # Loads even on slow connection
+
+# Perform website speed test using https://developers.google.com/speed/pagespeed/insights/ and https://www.uptrends.com/tools/website-speed-test
+
+# Use image compressor https://imagecompressor.com/
+
+# # GitHub Pages gems
+
+# Here is a list of gems that GitHub pages supports: https://pages.github.com/versions/
+
+
+
+
+
+
+
+# # Github's web hosting looks for a branch called "gh-pages"
+# # Git by names the default branch "master" so we need rename
+# # it to "gh-pages" so that Github can find the website files.
+
+# # In terminal
+# git checkout -b gh-pages                # Create a new branch called gh-pages
+# git push origin gh-pages                # Push the gh-pages repo to github
+
+# # On Github
+# Settings (Repo settings) --> Branches --> Default Branch --> gh-pages --> Update
+# (then delete the main branch)
+
+# # In terminal
+# git branch -D main               # delete the main branch
+# git push --set-upstream origin gh-pages                # set new branch as upstream

@@ -1,0 +1,26 @@
+<div id="page-meta" class="t30">
+	<p>
+		<!-- Look the author details up from the site config. -->
+		{% assign author = site.data.authors[page.author] %}
+
+		<!-- Output author details if some exist. -->
+		{% if author %}
+			<span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name" class="icon-edit pr20"><a href="{{ author.uri }}" target="_self"> {{ author.name }}</a></span></span>
+		{% endif %}
+
+		{% if page.factchecked == "yes" %}
+			<span class="icon-check pr20"> This article has been thoroughly fact checked.</span>
+		{% endif %}
+
+		{% if page.factchecked == "no" %}
+			<span class="icon-warning pr20"> This article is still under construction!</span>
+		{% endif %}
+	</p>
+	<p>
+		{% if page.last_date %}
+			<span class="icon-calendar pr20"> This article was first published on {{ page.first_date }} and last updated on {{ page.last_date }}.</span>
+		{% elsif page.first_date %}
+			<span class="icon-calendar pr20"> This article was first published on {{ page.first_date }}.</span>
+		{% endif %}
+	</p>
+</div><!--  /.page-meta -->

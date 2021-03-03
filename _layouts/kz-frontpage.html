@@ -1,0 +1,107 @@
+---
+layout: default
+format: frontpage
+---
+
+<div class="row">
+    <div class="small-12 columns">
+        {{ content }}
+    </div>
+</div>
+
+{% comment %}
+*
+* First check, if there is a call for action-button
+*
+{% endcomment %}
+{% if page.callforaction.url contains 'http' %}
+{% assign url = '' %}
+{% else %}
+{% capture url %}{% endcapture %}
+{% endif %}
+{% if page.callforaction %}
+    <div class="row t30 b30">
+        <div class="small-12 text-center columns">
+            <a class="button large radius {{ page.callforaction.style }}" href="{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} {% endif %}>{{ page.callforaction.text }}</a>
+        </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+{% endif %}
+
+
+{% comment %}
+*
+* First check, if widget is empty or not by checking if there is a title
+*
+{% endcomment %}
+<div class="row t60">
+	{% if page.widget1.image or page.widget1.video or page.widget1.title %}
+		{% include _frontpage-widget.html widget=page.widget1 %}
+	{% endif %}
+
+	{% if page.widget2.image or page.widget2.video or page.widget2.title %}
+		{% include _frontpage-widget.html widget=page.widget2 %}
+	{% endif %}
+
+	{% if page.widget3.image or page.widget3.video or page.widget3.title %}
+		{% include _frontpage-widget.html widget=page.widget3 %}
+	{% endif %}
+</div><!-- /.row -->
+
+
+{% comment %}
+*
+* First check, if there are any posts at all
+*
+{% endcomment %}
+
+{% unless site.posts == empty %}
+    {% assign primary_posts = site.posts | where: "primary_post", true %}
+
+    <div class="row t30 b20 homepage">
+        <div class="small-12 columns">
+            {% for post in primary_posts limit:1 %}
+            {% if post.image.homepage %}
+            <p>
+                <a href="{{ post.url }}" title="{{ post.title | escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title | escape_once }}"></a>
+            </p>
+
+            {% if post.image.caption %}
+            <p class="text-right caption" style="font-size:10px">
+                {{ post.image.caption }}
+            </p>
+            {% endif %}
+            {% endif %}
+            {% endfor %}
+        </div><!-- /.small-12.columns -->
+    </div><!-- /.row -->
+
+
+    <div class="row t30">
+        <!-- Display primary post -->
+        <div class="medium-6 columns">
+            {% for post in primary_posts limit:1 %}
+            <!-- {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %} -->
+            <h2 style="margin-top: 0px;"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+            <p>
+                {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% else post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
+                <a href="{{ post.url }}" title="Read {{ post.title | escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+            </p>
+            {% endfor %}
+        </div>
+
+        <!-- List of earlier pages -->
+        <div class="medium-6 columns">
+            <h3>Recently published:</h3>
+            <ul class="side-nav">
+                {% for post in site.posts limit:10 %}
+                    {% unless post.primary_post == true %}
+                      <li><a href="{{ post.url }}">{{ post.date | date: "%Y-%m-%d" }} &middot; <strong>{{ post.title }}</strong></a></li>
+                    {% endunless %}
+                {% endfor %}
+
+                <!-- Link to the archive -->
+                <li class="text-right"><a href="/archive/"><strong>{{ site.data.language.to_archive }}</strong></a></li>
+            </ul>
+        </div>
+    </div>
+{% endunless %}

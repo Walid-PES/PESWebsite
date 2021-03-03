@@ -1,0 +1,9 @@
+_site
+.bundle
+.DS_Store
+.idea
+.jekyll-cache
+.jekyll-metadata
+.sass-cache
+Gemfile.lock
+/.byebug_history

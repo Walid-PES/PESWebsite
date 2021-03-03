@@ -1,0 +1,44 @@
+<!--
+    <div id="up-to-top" class="row">
+      <div class="small-12 columns" style="text-align: right;">
+        <a class="iconfont" href="#top-of-page">&#xf108;</a>
+      </div>
+    </div>
+-->
+
+<footer id="footer-content" class="bg-grau t20">
+  <div id="footer">
+    <nav class="row">
+      <section class="columns social-icons">
+        <!-- div to centre icons -->
+        <div>
+          <ul class="inline-list">
+            {% for social_item in site.data.socialmedia %}
+            <li><a href="{{ social_item.url }}" target="_blank" class="{{ social_item.class }}"
+                   title="{{ social_item.title }}"></a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </section>
+    </nav>
+    <nav class="row">
+      <section class="columns">
+        <p>
+          11 Bolling Street, Freetown, Sierra Leone &#x25cf; +232 79 940 110 &#x25cf; +232 77 940 110 &#x25cf; wb.pes.sl@gmail.com
+          </br>
+          &#169; Copyright 2021 Premier Enviro Solutions. All rights reserved.
+        </p>
+      </section>
+    </nav>
+  </div>
+</footer>
+
+<script>
+  // Ensure that all external links open in new tabs
+  var links = document.links;
+  for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+     if (links[i].hostname != window.location.hostname) {
+         links[i].target = '_blank';
+     }
+  }
+</script>
