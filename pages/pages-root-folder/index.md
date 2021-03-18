@@ -2,7 +2,7 @@
 layout: kz-page
 permalink: /index.html
 homepage: true
-teaser: "Premier Enviro Solutions is a social enterprise based in Freetown. Our <b>vision</b> is to become a leader in integrated waste management in Sierra Leone. Our <b>mission</b> is to provide innovative, sustainable and affordable waste management solutions, with a particular focus on the types of waste that pose the most danger to public health. We aim to address three major problems in Sierra Leone:"
+teaser: "Premier Enviro Solutions is a social enterprise based in Freetown. Our <b>vision</b> is to become a leader in integrated waste management in Sierra Leone, and to subsequently expand to other countries in the region. Our <b>mission</b> is to provide innovative, sustainable and affordable waste management solutions, with a particular focus on the types of waste that pose the most danger to public health. We aim to address three major problems in Sierra Leone:"
 header:
   title: ""
   image_fullwidth: logo.jpg
@@ -22,7 +22,7 @@ widgets:
 - url: 
   image: plastic_pollution.jpg
   title: Plastic pollution of the environment
-  text: Freetown, with a population of 1.2 million, generates 90 tonnes/day of plastic waste. Only 20 tonnes find their way to the dumpsites, the remaining 70 tonnes/day pollute our environment, block waterways and drains causing flooding, or are openly burnt.
+  text: Freetown, with a population of 1.2 million, generates 90 tonnes/day of plastic waste. Only 20 of these are disposed of at dumpsites, the remaining 70 tonnes/day are either openly burnt or pollute our environment, and block waterways and drains causing flooding.
   cols: 4
 
 ---
@@ -47,17 +47,14 @@ widgets:
     <div class="medium-6 columns">
         <h2 style="margin-top: 0px;">Plastic 2 Build</h2>
         <p>We offer an affordable solution that addresses both the problem of plastic waste and the housing shortage. Through extensive experimentation we've discovered a perfect mix of plastic waste, sand and gravel; and developed an energy efficient, modular and highly scalable technology for producing building materials. This is a way to recover resources from the waste and produce sustainable buildings with positive ecological and social impact. <a href="/p2b/"><strong>{{ site.data.language.read_more }}</strong></a></p>
-        <div class="row t20 b20">
-            <div class="small-12 text-center columns">
-                <a class="button large radius alert" href="https://youtu.be/mLIn9egKehE">Watch a video!</a>
-            </div>
-        </div>
+        <p>Hear an interview with Walid Bahsoon featured in <a href="https://www.bbc.co.uk/sounds/play/w172x1h0p6vhjpp"><strong>BBC Focus on Africa</strong></a> episode on March 2nd 2021:</p>
+        <audio src="/audios/walid_interview.mp4" type="audio/mp3" controls="controls"></audio>
     </div>
     <div class="medium-6 columns">
         <h2 style="margin-top: 0px;">In the media:</h2>
         <ul class="side-nav">
             <li><a href="https://insightmag.news/recyling-plastic-waste-to-build-affordable-housing/"> 2020 &middot; The Freetown house built from 10 tonnes of plastic waste</a></li>
-            <li><a href="https://fortomorrow.org/explore-solutions/plastic-2-build-p2-b"> 2020 &middot;  Plastic 2 Build (P2B)</a></li>
+            <li><a href="https://fortomorrow.org/explore-solutions/plastic-2-build-p2-b"> 2020 &middot; (Act) for Tomorrow: Plastic 2 Build</a></li>
             <li><a href="https://www.sl.undp.org/content/sierraleone/en/home/blog/2019/undp-sierra-leone-officially-launches-it-s-accelerator-lab.html"> 2019 &middot; UNDP Sierra Leone Officially Launches its Accelerator Lab</a></li>
             <li><a href="https://thehillsofthechanklybore.com/2019/12/26/at-the-very-least-die-trying/"> 2019 &middot; Saving the World – final progress update</a></li>
         </ul>

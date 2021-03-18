@@ -38,7 +38,7 @@ The other 70 tonnes remain uncollected - polluting Freetown, causing flooding by
 The study revealed that there is a potential for recycling 50% of plastic waste - PET drinks bottles (25%), HDPE and PP bottles (10%) and clear water sachets (15%); while the remaining 50% are flexible and low-value plastics that cannot be recycled through conventional methods. 
 Now armed with the data, Walid embarked on a journey to find a sustainable, eco-friendly process that would produce building materials from all this plastic waste.
 
-At that point, Walid met Mohammed, the head of an association of four Youth Slum Communities.
+At that point, Walid met Mohammed, the head of the Youth Recycle Enterprise, an association of four youth slum communities. 
 As part of the UN sponsored program these young people were trained to make pavement tiles from plastic waste and sand. 
 They were openly burning the plastics which resulted in toxic fumes; and the resulting pavement tiles were inhomogeneous and of low quality.
 Mohammed said he couldn't find buyers for these tiles.
@@ -67,7 +67,7 @@ The benefits will be tangible (affordable housing, schools, hospitals and public
 </div>
 
 Walid's vision goes beyond plastic.
-At Premier Enviro Solutions he is also developing projects for treatment of the types of waste that pose the most danger to public health - fecal sludge and medical waste. 
+At Premier Enviro Solutions he is also developing projects for treatment of the types of waste that pose the most danger to public health - [faecal sludge][2] and [medical waste][3]. 
 
 
 Walid is also working closely with the national government to create an enabling environment for all existing and future businesses in the recycling industry.
@@ -75,3 +75,6 @@ Taking the inspiration from the Green Public Procurement scheme introduced in th
 He is working towards introducing incentives and policies that attract investment and encourage the use of products made from local recycled materials.
 
 [1]: https://youtu.be/cLl8sMsxtbU&t=69s
+[2]: /fs/
+[3]: /mw/
+
