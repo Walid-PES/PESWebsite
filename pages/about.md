@@ -46,14 +46,14 @@ Walid proposed to buy all of the tiles they had produced on condition that Moham
 They started buying all types of plastic waste and over several months they tested various recipes until they created a perfect mix of plastic, sand and gravel. 
 The resulting blocks did not deform or melt when exposed to fire.
 They sent samples to a local lab to conduct stress tests; the results showed that the strength of their blocks was nearly twice that of conventional blocks made from concrete. 
-Walid was satisfied; this was the start of the Plastic 2 Build project.
+Walid was satisfied; this was the start of the [Plastic 2 Build][4] project.
 
 The new mayor of Freetown, elected in August 2018, invited Walid to join the "Sanitation Planning" working group, which along with working groups for urban planning, housing and job creation for youth formed the "Transform Freetown" initiative.
 This allowed Walid to set the direction for waste management and recycling projects in Freetown, including the improvements and extensions to the local dumpsites.
 
-Plastic 2 Build project earned Premier Enviro Solutions an award at the [Asia Pacific Housing Innovation Awards in September 2019][1]. 
+[Plastic 2 Build][4] project earned Premier Enviro Solutions an award at the [Asia Pacific Housing Innovation Awards in September 2019][1]. 
 This was followed by the People's Choice Award at the launch event of the UNDP Accelerator Lab in October 2019 where innovations in waste management, affordable housing, provision of safe clean drinking water, renewable energy and information technology were showcased.
-Walid's ambition is to scale Plastic 2 Build project to process 25% of plastic waste generated in Freetown. 
+Walid's ambition is to scale [Plastic 2 Build][4] project to process 25% of plastic waste generated in Freetown. 
 The benefits will be tangible (affordable housing, schools, hospitals and public buildings), intangible (extended lifespans of the dumpsites, unclogged drainage systems, cleaner beaches and less air pollution from open burning of waste), wealth creation and employment opportunities. 
 
 <div class="row">
@@ -77,4 +77,5 @@ He is working towards introducing incentives and policies that attract investmen
 [1]: https://youtu.be/cLl8sMsxtbU&t=69s
 [2]: /fs/
 [3]: /mw/
+[4]: /p2b/
 
