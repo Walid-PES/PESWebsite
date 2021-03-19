@@ -39,6 +39,10 @@
 	<p>{{ include.widget.text }}</p>
 	{% endif %}
 
+	{% if include.widget.text2 != empty %}
+	<p>{{ include.widget.text2 }}</p>
+	{% endif %}
+
 	{% comment %}
 	{% else %}
     <p>{{ post.teaser | strip_html | escape }}</p>

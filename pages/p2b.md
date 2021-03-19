@@ -57,7 +57,7 @@ The stress tests conducted by a local lab showed that the load bearing strength 
 
 Our agents will be spread across Freetown, concentrating at transfer stations and dumpsites, to buy plastic waste from formal and informal waste collectors.
 Since we are interested in all types of plastic that don't have to be sorted, it will require much less effort from the informal sector to collect it.
-We will provide our agents with a mobile phone with a credit in mobile money to purchase a tonne of plastic waste, a scale, a manual baler and a tipper trailer for transportation.
+We will provide our agents with a mobile phone with a credit in mobile money to purchase a tonne of plastic waste, a scale and a manual baler.
 At our Buy Back Centers we will buy plastic waste not only from our agents, but from anyone, including households and companies willing to deliver their waste.
 Additionally, we will collect plastic waste directly from educational institutions and manufacturing companies. 
 The price we will pay for plastic waste will be set with the aim to balance the need for affordable building materials and the need to improve the livelihoods of the waste collectors.

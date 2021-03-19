@@ -22,7 +22,7 @@ widgets:
 - url: 
   image: plastic_pollution.jpg
   title: Plastic pollution of the environment
-  text: Freetown, with a population of 1.2 million, generates 90 tonnes/day of plastic waste. Only 20 of these are disposed of at dumpsites, the remaining 70 tonnes/day are either openly burnt or pollute our environment, and block waterways and drains causing flooding.
+  text: Freetown, with a population of 1.2 million, generates 90 tonnes/day of plastic waste. Only 20 of these are disposed of at dumpsites, the remaining 70 tonnes/day are either openly burnt or pollute our environment, block waterways and drains causing flooding.
   cols: 4
 
 ---

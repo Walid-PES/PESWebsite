@@ -20,8 +20,7 @@ widgets:
 
 The objective of this project is to ensure that medical waste in Sierra Leone is managed and disposed of in a safe, sustainable and environmentally friendly manner.
 This includes hospital and laboratory waste, solid and liquid medical waste, human and animal pathological waste and cultures, sharp medical waste, and any other regulated medical waste.
-There is no official data about the amount of medical waste generated in Sierra Leone. 
-According to the desk research conducted by [AMB Ecosteryl][1] consultants in 2021, it is about 2,000 tonnes per year.
+There is no official data for medical waste generated in Sierra Leone, but according to the desk research conducted by [AMB Ecosteryl][1] consultants in 2012, it is about 2,000 tonnes per year.
 This untreated and contaminated medical waste is disposed of by medical facilities that generate it; about 80% of it is openly burnt in hospital backyards or disposed of at dumpsites or in water bodies.
 The majority of autoclaves and small scale incinerators that have been bought in the past 10 years for treating medical waste are not operating due to their high operating costs and the lack of funding for maintenance.
 Policies and guidelines for medical waste management do exist, but they are not enforced.

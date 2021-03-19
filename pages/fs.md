@@ -23,7 +23,7 @@ Dewatered solids from the sludge are captured in the geobags and turned into com
 The effluent is treated in the secondary treatment pits and then discharged into the environment.
 Geobags don't require expensive physical infrastructure or extensive civil engineering works to be deployed.
 
-In December 2019 Premier Enviro Solutions installed a pilot plant at Kingtom dumpsite at company's own cost to demonstrate to Freetown City Council, [GOAL][1] and the [UK’s Foreign, Commonwealth and Development Office (FCDO)][2] that the concept was viable. 
+In December 2019 Premier Enviro Solutions installed a pilot plant at Kingtom dumpsite at company's own cost to demonstrate to Freetown City Council, [GOAL][1] and the [UK’s Foreign, Commonwealth and Development Office (FCDO, formerly DFID)][2] that the concept was viable. 
 The success of the pilot plant led to allocation of funds to GOAL to implement a larger scale project to treat 100m<sup>3</sup> of sludge daily. 
 The geobag system treats raw faecal sludge discharged from the vacuum trucks that empty the city’s cesspits. 
 This is the first and only functioning faecal sludge treatment plant in Sierra Leone. 
@@ -42,5 +42,10 @@ Since it is easy to deliver and install geobags in any location, this solution c
   {% endfor %}
 </div>
 
+See a [Facebook post by Yvonne Aki-Sawyerr][3], the Mayor of Freetown:
+
+<img src="/images/fs-post.jpg" alt="">
+
 [1]: https://www.goalglobal.org/countries/sierra-leone/
 [2]: https://www.gov.uk/government/organisations/foreign-commonwealth-development-office
+[3]: https://www.facebook.com/story.php?story_fbid=783330175654762&id=110552192932567
