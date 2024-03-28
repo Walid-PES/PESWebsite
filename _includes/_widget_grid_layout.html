@@ -1,0 +1,22 @@
+{% assign grid_column_size_attribute = 12 | divided_by: include.articles_per_row %}
+
+<div class="row">
+  {% for widget in include.widgets %}
+    {% assign loopindex = forloop.index | modulo: include.articles_per_row %}
+    {% include _frontpage-widget.html widget=widget grid_column_size_attribute=grid_column_size_attribute %}
+
+    {% if loopindex == 0 %}
+      {% comment %}Prevents long first column items from pushing new rows to the right{% endcomment %}
+      <hr style="height:0px; visibility:hidden;margin: 0px;" />
+    {% endif %}
+  {% endfor %}
+
+  {% comment %}Here we fill in the remaining grid holes to make the last articles push to the left.{% endcomment %}
+
+  {% assign total_articles = include.widgets.size %}
+  {% assign articles_in_last_row = total_articles | modulo: include.articles_per_row %}
+  {% assign holes_in_last_row = include.articles_per_row | minus: articles_in_last_row | modulo: include.articles_per_row %}
+  {% for i in (1..holes_in_last_row) %}
+  <div class="medium-{{ grid_column_size_attribute }} columns frontpage-widget" style="margin-bottom: 10px;"></div>
+  {% endfor  %}
+</div>

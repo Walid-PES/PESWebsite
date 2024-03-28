@@ -27,15 +27,7 @@ Policies and guidelines for medical waste management do exist, but they are not 
 Mismanaged medical waste poses a threat to public health and creates a high risk of epidemics.
 Premier Enviro Solutions is determined to change the situation.
 
-<div class="row">
-  {% for widget in page.widgets %}
-    {% assign loopindex = forloop.index | modulo: 3 %}
-    <div id="{{ widget.anchor }}">{% include _frontpage-widget.html widget=widget %}</div>
-    {% if loopindex == 0 %}
-  <hr style="height:1px; visibility:hidden;" /> <!-- Prevents long first column items from pushing new rows to the right -->
-    {% endif %}
-  {% endfor %}
-</div>
+{% include _widget_grid_layout.html widgets=page.widgets articles_per_row=3 %}
 
 Through extensive market research, Premier Enviro Solutions identified [AMB Ecosteryl][1], a Belgian company, as the best provider of suitable equipment for processing medical waste.
 AMB Ecosteryl has nearly 20 years of experience in commercial treatment of medical waste without burning.

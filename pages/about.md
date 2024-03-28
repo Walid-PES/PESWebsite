@@ -56,15 +56,7 @@ This was followed by the People's Choice Award at the launch event of the UNDP A
 Walid's ambition is to scale [Plastic 2 Build][4] project to process 25% of plastic waste generated in Freetown. 
 The benefits will be tangible (affordable housing, schools, hospitals and public buildings), intangible (extended lifespans of the dumpsites, unclogged drainage systems, cleaner beaches and less air pollution from open burning of waste), wealth creation and employment opportunities. 
 
-<div class="row">
-  {% for widget in page.widgets %}
-    {% assign loopindex = forloop.index | modulo: 3 %}
-    <div id="{{ widget.anchor }}">{% include _frontpage-widget.html widget=widget %}</div>
-    {% if loopindex == 0 %}
-  <hr style="height:1px; visibility:hidden;" /> <!-- Prevents long first column items from pushing new rows to the right -->
-    {% endif %}
-  {% endfor %}
-</div>
+{% include _widget_grid_layout.html widgets=page.widgets articles_per_row=3 %}
 
 Walid's vision goes beyond plastic.
 At Premier Enviro Solutions he is also developing projects for treatment of the types of waste that pose the most danger to public health - [faecal sludge][2] and [medical waste][3]. 

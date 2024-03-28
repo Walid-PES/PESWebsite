@@ -32,15 +32,7 @@ Until now all faecal sludge has been dumped on top of municipal solid waste in K
 The full scale geobag system will be operational at Kingtom dumpsite in April 2021, in an area dedicated specifically to faecal sludge treatment and separated by a wall from the rest of the dumpsite.
 Since it is easy to deliver and install geobags in any location, this solution can be applied throughout Sierra Leone.
 
-<div class="row">
-  {% for widget in page.widgets %}
-    {% assign loopindex = forloop.index | modulo: 3 %}
-    <div id="{{ widget.anchor }}">{% include _frontpage-widget.html widget=widget %}</div>
-    {% if loopindex == 0 %}
-  <hr style="height:1px; visibility:hidden;" /> <!-- Prevents long first column items from pushing new rows to the right -->
-    {% endif %}
-  {% endfor %}
-</div>
+{% include _widget_grid_layout.html widgets=page.widgets articles_per_row=3 %}
 
 See a [Facebook post by Yvonne Aki-Sawyerr][3], the Mayor of Freetown:
 

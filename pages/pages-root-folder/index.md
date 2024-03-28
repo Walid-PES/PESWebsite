@@ -11,31 +11,20 @@ widgets:
   image: lack_of_housing.jpg
   title: Lack of affordable housing
   text: 92.7% of 7.8 million people in Sierra Leone live on less than $5 a day. 60% of Freetown’s population live in slums due to the lack of affordable housing. 280,000 more houses are needed in Freetown by 2028.
-  cols: 4
-
 - url: 
   image: unemployment.jpg
   title: Widespread youth unemployment
   text: 62.5% of Sierra Leone’s population is below 25. While that creates a lot of opportunities, it is also a challenge as nearly 70,000 youths in Freetown are unemployed. 
-  cols: 4
-
 - url: 
   image: plastic_pollution.jpg
   title: Plastic pollution of the environment
   text: Freetown, with a population of 1.2 million, generates 90 tonnes/day of plastic waste. Only 20 of these are disposed of at dumpsites, the remaining 70 tonnes/day are either openly burnt or pollute our environment, block waterways and drains causing flooding.
-  cols: 4
-
+widgets2:
+- url: 
+  image: home-mission.jpg
 ---
 
-<div class="row">
-  {% for widget in page.widgets %}
-    {% assign loopindex = forloop.index | modulo: 3 %}
-    <div id="{{ widget.anchor }}">{% include _frontpage-widget.html widget=widget %}</div>
-    {% if loopindex == 0 %}
-  <hr style="height:1px; visibility:hidden;" /> <!-- Prevents long first column items from pushing new rows to the right -->
-    {% endif %}
-  {% endfor %}
-</div>
+{% include _widget_grid_layout.html widgets=page.widgets articles_per_row=3 %}
 
 <div class="row t10 b20">
     <div class="small-12 columns">
@@ -60,3 +49,6 @@ widgets:
         </ul>
     </div>
 </div>
+
+<br>
+{% include _widget_grid_layout.html widgets=page.widgets2 articles_per_row=1 %}
